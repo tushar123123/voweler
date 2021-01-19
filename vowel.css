@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(10, 10, 10);
+}
+#div{
+   text-align: center;
+   font-weight: bold;
+}
+#text{
+    padding: 20px;
+}
+.container{
+    background-color:white;
+    width: 400px;
+    height: 570px;
+    margin: auto;
+
+}
+#results{
+    text-align: center;
+    margin-top: 20px;
+}
+#btn{
+    margin: 0px 20px;
+}
+#dreset{
+    margin: 5px 20px;
+}
+#btn:hover,#reset:hover{
+   color: white;
+   background-color: black;
+}
+#textArea{
+    resize: none; 
+}
+@media screen and (max-width: 500px){
+    .container{
+        height: 100vh;
+       width: 50vh;
+        margin: auto;
+    }
+    #textArea{
+        height: 300px;
+        width: 200px;
+        margin: auto;
+        resize: none; 
+    }
+
+    } 
+  
